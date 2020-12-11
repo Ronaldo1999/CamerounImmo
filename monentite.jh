@@ -1,0 +1,10 @@
+entity Stagiaire{
+	id Integer unique,
+    nom String required,
+    prenom String,
+    genre String max(1),
+    niveauEtude String,
+    dateNaissance LocalDate,
+    etsFrequente String,
+    quartier String
+}
